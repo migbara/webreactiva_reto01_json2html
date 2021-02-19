@@ -55,7 +55,7 @@ function json2html($json,&$nivel,$spaces){
 }
 $nivel = 0;
 $espacios = 4;
-echo json2html($json,$nivel,4);
+echo json2html($json,$nivel,$espacios);
 
 
 ?>
